@@ -1,0 +1,8 @@
+mongoimport -d wordCupDictionary -c dailywords – -type CSV – -file word.csv –headerline
+
+Note : -> wordCupDictionary is the database name
+
+    dailywords is the collection name.
+    – -type CSV denotes that file type that is being imported is of type CSV.
+    word.csv is the file name that we are importing.
+    – -headerline is the header of the CSV file, below which listed data is mentioned.(here in this example it is ‘ word ‘).
